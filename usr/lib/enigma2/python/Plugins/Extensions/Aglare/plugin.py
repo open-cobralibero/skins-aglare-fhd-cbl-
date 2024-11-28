@@ -97,7 +97,7 @@ config.plugins.Aglare.VolumeBar = ConfigSelection(default='volume1', choices=[
  ('volume2', _('volume2'))])
 
 def Plugins(**kwargs):
-    return PluginDescriptor(name='CBL Skin Setup-V4.3', description=_('Customization tool for Aglare-FHD-CBL Skin'), where=PluginDescriptor.WHERE_PLUGINMENU, icon='plugin.png', fnc=main)
+    return PluginDescriptor(name='CBL Skin Setup', description=_('Customization tool for Aglare-FHD-CBL Skin'), where=PluginDescriptor.WHERE_PLUGINMENU, icon='plugin.png', fnc=main)
 
 
 def main(session, **kwargs):
